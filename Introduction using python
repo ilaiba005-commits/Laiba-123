@@ -1,0 +1,9 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+
+print("\n--- My Introduction ---")
+print("My name is", name)
+print("I am", age, "years old.")
+print("I live in", city)
+print("I am learning Python programming.")
