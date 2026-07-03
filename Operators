@@ -1,0 +1,50 @@
+Type of Operators:
+# Python Operators Assignment
+
+# Arithmetic Operators
+a = 20
+b = 5
+
+print("Arithmetic Operators")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponent:", a ** b)
+
+# Comparison Operators
+print("\nComparison Operators")
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a >= b:", a >= b)
+print("a <= b:", a <= b)
+
+# Assignment Operators
+print("\nAssignment Operators")
+x = 10
+print("Initial value:", x)
+
+x += 5
+print("After += 5:", x)
+
+x -= 3
+print("After -= 3:", x)
+
+x *= 2
+print("After *= 2:", x)
+
+x /= 4
+print("After /= 4:", x)
+
+# Logical Operators
+print("\nLogical Operators")
+p = True
+q = False
+
+print("p and q:", p and q)
+print("p or q:", p or q)
+print("not p:", not p)
