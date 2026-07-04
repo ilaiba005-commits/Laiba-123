@@ -1,0 +1,39 @@
+# Create a list
+colors = ["Red", "Green", "Blue"]
+
+# Print the original list
+print("Original list:", colors)
+
+# Print the first item
+print("First color:", colors[0])
+
+# Change the second item
+colors[1] = "Yellow"
+print("After changing Green to Yellow:", colors)
+
+# Add a new color
+colors.append("Purple")
+print("After append:", colors)
+
+# Insert a color at index 1
+colors.insert(1, "Black")
+print("After insert:", colors)
+
+# Remove a color
+colors.remove("Red")
+print("After remove:", colors)
+
+# Remove the last item
+colors.pop()
+print("After pop:", colors)
+
+# Sort the list
+colors.sort()
+print("After sort:", colors)
+
+# Reverse the list
+colors.reverse()
+print("After reverse:", colors)
+
+# Print the final list
+print("Final list:", colors)
