@@ -1,0 +1,31 @@
+Question no 1:Food bill
+burger_price = 250
+pizza_price = 800
+
+burger_qty = 2
+pizza_qty = 1
+
+delivery_charges = 150
+
+total_food_price = (burger_price * burger_qty) + (pizza_price * pizza_qty)
+final_bill = total_food_price + delivery_charges
+
+print("Total Food Price =", total_food_price)
+print("Delivery Charges =", delivery_charges)
+print("Final Bill =", final_bill)
+Question no 2: Student results
+
+sub1 = 75
+sub2 = 80
+sub3 = 65
+sub4 = 90
+sub5 = 70
+
+total_marks = sub1 + sub2 + sub3 + sub4 + sub5
+percentage = (total_marks / 500) * 100
+
+pass_status = percentage >= 50
+
+print("Total Marks =", total_marks)
+print("Percentage =", percentage)
+print("Pass Status =", pass_status)
