@@ -1,0 +1,184 @@
+Question no I:
+foods = ["Burger", "Pizza", "Fries", "Broast", "Sandwich"]
+
+print(foods[0])
+print(foods[-1])
+
+foods[2] = "Pasta"
+foods.append("Zinger")
+foods.insert(2, "Shawarma")
+foods.remove("Pizza")
+foods.pop()
+
+print(len(foods))
+print(foods[:3])
+print(foods[-2:])
+
+foods.reverse()
+foods.sort()
+
+print(foods)
+Question no 2:
+students = ["Ali", "Sara", "Ahmed", "Zoha Khan", "Hira"]
+
+print(students[0])
+print(students[-1])
+
+students[2] = "Hamza"
+students.append("Fatima")
+students.insert(1, "Ayesha")
+students.remove("Sara")
+students.pop(3)
+
+print(len(students))
+print(students[1:4])
+
+students.reverse()
+
+print(students)
+Question no 3:
+prices = [45000, 120000, 30000, 85000, 60000]
+
+prices.sort()
+print(prices[-1])
+print(prices[0])
+
+print(prices)
+
+prices.sort(reverse=True)
+print(prices)
+
+prices.append(70000)
+prices.remove(30000)
+prices.pop()
+
+print(prices[:3])
+print(prices[-2:])
+print(len(prices))
+Question no 4:
+players = ["Babar", "Rizwan", "Shaheen", "Naseem", "Shadab"]
+
+print(players[0])
+print(players[-1])
+
+players[4] = "Imad"
+players.append("Haris")
+players.insert(2, "Fakhar")
+players.remove("Naseem")
+
+print(players[:4])
+print(players[-3:])
+
+players.reverse()
+
+print(players)
+Question No 5:
+cart = ["Shoes", "Watch", "Bag", "Laptop", "Bottle"]
+
+print(cart[0])
+print(cart[-1])
+
+cart[4] = "Headphones"
+cart.append("Keyboard")
+cart.insert(1, "Mouse")
+cart.remove("Bag")
+cart.pop()
+
+print(len(cart))
+print(cart[1:4])
+
+cart.reverse()
+
+print(cart)
+Question no 6:
+salaries = [25000, 40000, 70000, 55000, 90000]
+
+print(max(salaries))
+print(min(salaries))
+
+salaries.sort()
+print(salaries)
+
+salaries.sort(reverse=True)
+print(salaries)
+
+salaries.append(65000)
+salaries.remove(40000)
+
+print(salaries[1])
+print(salaries[:3])
+print(len(salaries))
+
+print(salaries)
+Question no 7:
+movies = ["Avatar", "Inception", "Joker", "Titanic", "Interstellar"]
+
+print(movies[0])
+print(movies[-1])
+
+movies[2] = "Batman"
+movies.append("Frozen")
+movies.insert(3, "Avengers")
+movies.remove("Titanic")
+movies.pop()
+
+print(movies[:4])
+
+movies.reverse()
+
+print(movies)
+Question no 8:
+marks = [78, 45, 90, 66, 82]
+
+print(max(marks))
+print(min(marks))
+
+marks.sort()
+print(marks)
+
+marks.sort(reverse=True)
+print(marks)
+
+marks.append(88)
+marks.remove(45)
+
+print(marks[:3])
+print(marks[-2:])
+print(len(marks))
+
+print(marks)
+Question no 9:
+visitors = ["Ali", "Sara", "Ahmed", "Zoha Khan", "Hira"]
+
+print(visitors[0])
+print(visitors[-1])
+
+visitors.append("Hamza")
+visitors.insert(2, "Ayesha")
+visitors.remove("Ahmed")
+visitors.pop()
+
+print(visitors[:3])
+print(visitors[-3:])
+
+visitors.reverse()
+
+print(len(visitors))
+Question no 10:
+languages = ["Python", "JavaScript", "Java", "C++", "PHP"]
+
+print(languages[0])
+print(languages[-1])
+
+languages[4] = "TypeScript"
+languages.append("Go")
+languages.insert(2, "Rust")
+languages.remove("Java")
+
+print(languages[:4])
+print(languages[-2:])
+
+languages.sort()
+languages.reverse()
+
+print(languages)
