@@ -1,0 +1,70 @@
+# Exercise:1
+import random
+import math
+
+# Generate a random number between 1 and 100
+number = random.randint(1, 100)
+
+# Calculate square root
+square_root = math.sqrt(number)
+
+# Display result
+print("Random Number:", number)
+print("Square Root:", square_root)
+
+# Exercise 2:
+import student
+
+name = input("Enter Name: ")
+
+marks = [20, 56, 89]
+
+average = student.calculate_average(marks)
+grade = student.find_grade(average)
+
+student.display_result(name, average, grade)
+def calculate_average(marks_list):
+    return sum(marks_list) / len(marks_list)
+
+def find_grade(average):
+    if average >= 50:
+        return "Pass"
+    else:
+        return "Fail"
+
+def display_result(name, average, grade):
+    print("Name:", name)
+    print("Average:", average)
+    print("Grade:", grade)
+# Examples:
+import math
+import random
+
+# Generate random number
+num = random.randint(1, 100)
+print(f"Random number: {num}")
+
+# Calculate square root
+sqrt_result = math.sqrt(num)
+print(f"Square root: {sqrt_result}")
+# Example no 2:
+# geometry.py
+
+import math
+
+def circle_area(radius):
+    """Calculate area of circle"""
+    return math.pi * radius * radius
+
+def circle_circumference(radius):
+    """Calculate circumference of circle"""
+    return 2 * math.pi * radius
+
+def rectangle_area(length, width):
+    """Calculate area of rectangle"""
+    return length * width
+import geometry
+
+print("Circle area:", geometry.circle_area(5))
+print("Circle circumference:", geometry.circle_circumference(5))
+print("Rectangle area:", geometry.rectangle_area(10, 5))
